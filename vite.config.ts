@@ -5,7 +5,7 @@ import { defineConfig } from "vite"
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/tarso-de-coimbra/",
+  base: "/site-tarso-de-coimbra/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
